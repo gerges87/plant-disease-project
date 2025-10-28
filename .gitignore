@@ -1,0 +1,16 @@
+# Ignore Jupyter/Colab cache files
+.ipynb_checkpoints/
+__pycache__/
+
+# Ignore large model files
+# (We are linking to them from Google Drive instead)
+*.keras
+*.h5
+*.tflite
+
+# Ignore sensitive files (NEVER upload your API keys!)
+kaggle.json
+
+# Ignore local environment files
+.env
+venv/
